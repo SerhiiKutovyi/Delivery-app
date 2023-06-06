@@ -1,8 +1,16 @@
+import Layout from 'components/Layout/Layout';
+
+const { Routes, Route } = require('react-router-dom');
+
 const App = () => {
   return (
-    <>
-      <h1>Hello react!</h1>
-    </>
+    <div>
+      <Routes>
+        <Route path="/" element={<Layout />} />
+        {/* <Route path="/abaut" element={<Abaut />} />
+        <Route path="/products" element={<Products />} /> */}
+      </Routes>
+    </div>
   );
 };
 
