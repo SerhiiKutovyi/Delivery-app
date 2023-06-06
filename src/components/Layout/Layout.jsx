@@ -4,7 +4,7 @@ const Layout = () => {
   return (
     <LayoutStyled>
       <h2>Shop</h2>
-      <h2>Sopings Cart</h2>
+      <h2>Shopings Cart</h2>
     </LayoutStyled>
   );
 };

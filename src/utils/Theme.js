@@ -2,6 +2,16 @@ export const theme = {
   colors: {
     white: '#ffffff',
     black: '#000000',
+    deepPink: '#FF1493',
+    slateBlue: '	#6A5ACD',
+    red: '#FF0000',
+    orange: '	#FFA500',
+    yellow: '#FFFF00',
+    green: '	#008000',
+    aqua: '	#00FFFF',
+    blue: '#0000FF',
+    olive: '	#808000',
+    silver: '#C0C0C0',
 
     accent: '',
     primaryBackground: '',
@@ -24,7 +34,6 @@ export const theme = {
 
       primaryBtn: '',
     },
-
   },
 
   space: [0, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024],

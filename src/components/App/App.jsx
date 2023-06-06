@@ -2,6 +2,7 @@ import Layout from 'components/Layout/Layout';
 
 const { Routes, Route } = require('react-router-dom');
 
+
 const App = () => {
   return (
     <div>
