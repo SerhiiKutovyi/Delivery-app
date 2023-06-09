@@ -1,17 +1,17 @@
+import { Routes, Route } from 'react-router-dom';
+
 import Layout from 'components/Layout/Layout';
-
-const { Routes, Route } = require('react-router-dom');
-
+import { Container } from './App.styled';
 
 const App = () => {
   return (
-    <div>
+    <Container>
       <Routes>
-        <Route path="/" element={<Layout />} />
+        <Route path="/" element={<div><Layout /></div>} ></Route>
         {/* <Route path="/abaut" element={<Abaut />} />
         <Route path="/products" element={<Products />} /> */}
       </Routes>
-    </div>
+    </Container>
   );
 };
 

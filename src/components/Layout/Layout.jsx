@@ -1,11 +1,11 @@
-import { LayoutStyled } from "./Layout.styles";
+import { Box } from './Layout.styled';
 
 const Layout = () => {
   return (
-    <LayoutStyled>
+    <Box>
       <h2>Shop</h2>
       <h2>Shopings Cart</h2>
-    </LayoutStyled>
+    </Box>
   );
 };
 
