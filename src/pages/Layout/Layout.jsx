@@ -1,10 +1,11 @@
-import { Box } from './Layout.styled';
+import { BoxLayout } from './Layout.styled';
+import AppBar from 'components/AppBar';
 
 const Layout = () => {
   return (
-    <Box>
-     <p>Hello Layout!</p>
-    </Box>
+    <BoxLayout>
+      <AppBar />
+    </BoxLayout>
   );
 };
 
