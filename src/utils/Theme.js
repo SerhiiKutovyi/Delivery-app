@@ -12,6 +12,8 @@ export const theme = {
     blue: '#0000FF',
     olive: '	#808000',
     silver: '#C0C0C0',
+    lime: '#00FF00',
+    MediumAquaMarine: '#66CDAA',
 
     accent: '',
     primaryBackground: '',
