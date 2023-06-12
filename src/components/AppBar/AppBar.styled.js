@@ -9,12 +9,18 @@ export const BoxAppBar = styled.div`
 `;
 
 export const StyledNavLink = styled(NavLink)`
-  /* Общие стили для NavLink */
-  color: ${p => p.theme.colors.yellow};
+   /* Общие стили для NavLink  */
   text-decoration: none;
 
+  font-family: 'Inter';
+  font-style: normal;
+  font-size: ${p => p.theme.fontSizes.xxl};
+  line-height: ${p => p.theme.lineHeights.text};
+  color: ${p => p.theme.colors.yellow};
+  
   &.active {
     /* Стили для активного NavLink */
+
     font-weight: bold;
   }
 `;
