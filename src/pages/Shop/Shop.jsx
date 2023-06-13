@@ -1,10 +1,10 @@
 import { BoxShop, StyledNavLink } from './Shop.styled';
-import { brends } from 'utils/NavBrands';
+import { brands } from 'utils/NavBrands';
 
 const Shop = () => {
   return (
     <BoxShop>
-      {brends.map(({ herf, text, icon: Icon }) => (
+      {brands.map(({ herf, text, icon: Icon }) => (
         <StyledNavLink key={herf} to={herf}>
           <Icon size={16} />
           {text}
