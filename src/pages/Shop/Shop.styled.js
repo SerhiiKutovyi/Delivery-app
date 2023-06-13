@@ -1,12 +1,27 @@
 import { NavLink } from 'react-router-dom';
 import styled from 'styled-components';
 
+export const Box = styled.div`
+  display: flex;
+  gap: 20px;
+`;
+
 export const BoxShop = styled.div`
   display: flex;
   flex-direction: column;
-  padding: ${p => p.theme.space[4] + 4}px;
-  /* background: ${p => p.theme.colors.MediumAquaMarine}; */
   gap: ${p => p.theme.space[4]}px;
+
+  width: 100%;
+
+  margin-top: 20px;
+  margin-left: 20px;
+  padding: ${p => p.theme.space[4] + 4}px;
+
+  background: ${p => p.theme.colors.silver};
+
+  p {
+    text-align: center;
+  }
 `;
 
 export const StyledNavLink = styled(NavLink)`
@@ -28,4 +43,17 @@ export const StyledNavLink = styled(NavLink)`
   :focus-visible:not(.active) {
     color: ${p => p.theme.colors.lime};
   }
+`;
+
+export const StyledOutlet = styled.div`
+  display: flex;
+  justify-content: center;
+
+  width: 100%;
+
+  margin-top: 20px;
+  margin-right: 20px;
+  padding: 20px;
+
+  background: ${p => p.theme.colors.silver};
 `;
