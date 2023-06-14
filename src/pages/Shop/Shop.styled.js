@@ -9,9 +9,11 @@ export const Box = styled.div`
 export const BoxShop = styled.div`
   display: flex;
   flex-direction: column;
-  gap: ${p => p.theme.space[4]}px;
+  align-items: center;
 
-  width: 100%;
+  width: 260px;
+
+  gap: ${p => p.theme.space[4]}px;
 
   margin-top: 20px;
   margin-left: 20px;
@@ -19,23 +21,23 @@ export const BoxShop = styled.div`
 
   background: ${p => p.theme.colors.silver};
 
-  p {
+  /* p {
     text-align: center;
-  }
+  } */
 `;
 
 export const StyledNavLink = styled(NavLink)`
-  /* Общие стили для NavLink  */
   text-decoration: none;
 
-  font-family: 'Inter';
+  
+
+  font-family: 'Roboto';
   font-style: normal;
   font-size: ${p => p.theme.fontSizes.xxl};
   line-height: ${p => p.theme.lineHeights.text};
   color: ${p => p.theme.colors.yellow};
 
   &.active {
-    /* Стили для активного NavLink */
     font-weight: bold;
   }
 
@@ -48,8 +50,6 @@ export const StyledNavLink = styled(NavLink)`
 export const StyledOutlet = styled.div`
   display: flex;
   justify-content: center;
-
-  width: 100%;
 
   margin-top: 20px;
   margin-right: 20px;

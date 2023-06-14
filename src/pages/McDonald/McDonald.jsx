@@ -1,9 +1,9 @@
-const  McDonald =()=> {
-    return (
-      <>
-        <p>McDonald</p>
-      </>
-    );
-}
+const McDonald = () => {
+  return (
+    <>
+      <p>Hello McDonald</p>
+    </>
+  );
+};
 
-export default McDonald
+export default McDonald;
