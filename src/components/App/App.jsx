@@ -2,6 +2,7 @@ import { Routes, Route } from 'react-router-dom';
 
 import Layout from 'components/Layout';
 import Shop from 'pages/Shop';
+import McDonald from 'pages/McDonald';
 
 import ShoppingCart from 'pages/ShoppingCart';
 import NotFound from 'pages/NotFound/NotFound';
@@ -12,7 +13,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route path="shop" element={<Shop />}>
-            <Route path="mcdonald" element={<div>McDonald</div>} />
+            <Route path="mcdonald" element={<McDonald />} />
             <Route path="kfc" element={<div>KFC</div>} />
             <Route path="dominospizza" element={<div>Dominos Pizza</div>} />
             <Route path="starbucks" element={<div>Starbucks</div>} />
