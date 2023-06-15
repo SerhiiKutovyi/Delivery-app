@@ -11,13 +11,13 @@ export const BoxShop = styled.div`
   flex-direction: column;
   align-items: center;
 
-  width: 260px;
+  min-width: 260px;
 
   gap: ${p => p.theme.space[4]}px;
 
   margin-top: 20px;
   margin-left: 20px;
-  padding: ${p => p.theme.space[4] + 4}px;
+  padding: ${p => p.theme.space[4] }px;
 
   background: ${p => p.theme.colors.silver};
 
@@ -28,17 +28,22 @@ export const BoxShop = styled.div`
 
 export const StyledNavLink = styled(NavLink)`
   text-decoration: none;
+  text-align: center;
 
+  width:100%;
+
+  border-radius: 10px;
   
-
   font-family: 'Roboto';
   font-style: normal;
   font-size: ${p => p.theme.fontSizes.xxl};
   line-height: ${p => p.theme.lineHeights.text};
   color: ${p => p.theme.colors.yellow};
-
+  background: ${p => p.theme.colors.white};
+  
   &.active {
     font-weight: bold;
+    color: ${p => p.theme.colors.lime};
   }
 
   :hover:not(.active),
@@ -51,9 +56,11 @@ export const StyledOutlet = styled.div`
   display: flex;
   justify-content: center;
 
+  width: 100%;
+
   margin-top: 20px;
   margin-right: 20px;
-  padding: 20px;
+  padding: ${p => p.theme.space[4]}px;
 
   background: ${p => p.theme.colors.silver};
 `;
