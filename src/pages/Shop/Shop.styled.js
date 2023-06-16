@@ -55,6 +55,8 @@ export const StyledNavLink = styled(NavLink)`
 export const StyledOutlet = styled.div`
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
 
   width: 100%;
 

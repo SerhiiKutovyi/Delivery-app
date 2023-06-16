@@ -9,7 +9,7 @@ export const BoxAppBar = styled.div`
 `;
 
 export const StyledNavLink = styled(NavLink)`
-  /* Общие стили для NavLink  */
+  
   text-decoration: none;
 
   font-family: 'Inter';
@@ -19,7 +19,7 @@ export const StyledNavLink = styled(NavLink)`
   color: ${p => p.theme.colors.yellow};
 
   &.active {
-    /* Стили для активного NavLink */
+    
     font-weight: bold;
   }
 
