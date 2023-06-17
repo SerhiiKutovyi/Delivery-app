@@ -30,25 +30,25 @@ export const StyledNavLink = styled(NavLink)`
   text-decoration: none;
   text-align: center;
 
-  width:100%;
+  width: 100%;
 
   border-radius: 10px;
-  
+
   font-family: 'Roboto';
   font-style: normal;
   font-size: ${p => p.theme.fontSizes.xxl};
   line-height: ${p => p.theme.lineHeights.text};
   color: ${p => p.theme.colors.yellow};
   background: ${p => p.theme.colors.white};
-  
+
   &.active {
     font-weight: bold;
-    color: ${p => p.theme.colors.lime};
+    color: ${p => p.theme.colors.accent};
   }
 
   :hover:not(.active),
   :focus-visible:not(.active) {
-    color: ${p => p.theme.colors.lime};
+    color: ${p => p.theme.colors.accent};
   }
 `;
 

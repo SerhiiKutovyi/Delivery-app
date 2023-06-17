@@ -15,8 +15,8 @@ export const theme = {
     lime: '#00FF00',
     MediumAquaMarine: '#66CDAA',
 
-    accent: '',
-    primaryBackground: '',
+    accent: 'rgb(102 172 205)',
+    primaryBackground: 'rgb(209 247 255)',
     secondaryBackground: '',
 
     text: {

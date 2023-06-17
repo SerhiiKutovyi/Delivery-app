@@ -5,9 +5,9 @@ import { BoxAppBar, StyledNavLink } from './AppBar.styled';
 const AppBar = () => {
   return (
     <BoxAppBar>
-      {navItems.map(item => (
-        <StyledNavLink to={item.href} key={item.href}>
-          {item.text}
+      {navItems.map(({ href, text }) => (
+        <StyledNavLink to={href} key={href}>
+          {text}
         </StyledNavLink>
       ))}
     </BoxAppBar>

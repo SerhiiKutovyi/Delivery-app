@@ -7,7 +7,7 @@ const Shop = () => {
     <>
       <Box>
         <BoxShop>
-          <p>shops:</p>
+          <h1>shops:</h1>
           {brands.map(({ herf, text, icon: Icon }) => (
             <StyledNavLink key={herf} to={herf}>
               <Icon size={16} />

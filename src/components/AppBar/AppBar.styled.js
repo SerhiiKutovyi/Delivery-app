@@ -4,7 +4,7 @@ import styled from 'styled-components';
 export const BoxAppBar = styled.div`
   display: flex;
   padding: ${p => p.theme.space[4] + 4}px;
-  background: ${p => p.theme.colors.MediumAquaMarine};
+  background: ${p => p.theme.colors.accent};
   gap: ${p => p.theme.space[7]}px;
 `;
 
