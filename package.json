@@ -1,8 +1,8 @@
 {
   "name": "delivery-app",
   "version": "0.1.0",
-  "private": true,
-  "homepage": "https://serhiikutovyi.github.io/delivery-app/",
+  "private": "false",
+  "homepage": "https://SerhiiKutovyi.github.io/delivery-app/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
