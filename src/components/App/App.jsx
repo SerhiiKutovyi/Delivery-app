@@ -1,4 +1,4 @@
-import { Routes, Route, Navigate } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 
 import Layout from 'components/Layout';
 import Shop from 'pages/Shop';
@@ -12,7 +12,7 @@ const App = () => {
     <>
       <Routes>
         <Route path="/" element={<Layout />}>
-          <Route index element={<Navigate to='/shop'/>} />
+          <Route index element={<div>Hello!</div>} />
           <Route path="shop" element={<Shop />}>
             <Route path="mcdonald" element={<McDonald />} />
             <Route path="kfc" element={<div>KFC</div>} />
